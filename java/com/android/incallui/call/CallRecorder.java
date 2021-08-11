@@ -95,9 +95,6 @@ public class CallRecorder implements CallList.Listener {
   }
 
   public boolean canRecordInCurrentCountry() {
-      if (!isEnabled()) {
-          return false;
-      }
       return true;
   }
 
